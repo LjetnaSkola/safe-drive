@@ -1,0 +1,36 @@
+1. Kreiraj ugniježđenu strukturu direktorijuma odjednom: skola/linux/zadaci
+Uđi u direktorijum zadaci
+Ispiši punu (apsolutnu) putanju trenutnog direktorijuma da provjeriš gdje se nalaziš
+Vrati se u prethodni direktorijum (linux)
+
+2. U direktorijumu zadaci kreiraj tri prazna tekstualna fajla: test1.txt, test2.txt i skripta.log.
+Izlistaj sve fajlove u dugom formatu.
+Kopiraj fajl test1.txt u novu datoteku backup.txt.  
+Premjesti (ili preimenuj) test2.txt u stari_test.txt.  
+Probaj da proslijediš ispis neke komande u "crnu rupu" /dev/null kako se ništa ne bi ispisalo na ekranu.
+
+3. Upiši nekoliko linija teksta u fajl podaci.txt (neka neke linije sadrže riječ "error", a neke "info").  
+Prikaži kompletan sadržaj fajla na ekranu.
+Prikaži samo prvih 2 linije fajla, a zatim poslednje 2 linije.  
+Pronađi i ispiši sve linije iz fajla koje sadrže riječ "error".  Ispiši sve linije koje ne sadrže riječ "info".  
+Sortiraj linije unutar fajla podaci.txt abecedno).  
+
+4. Pronađi sve fajlove koji imaju ekstenziju .txt unutar tvog trenutnog direktorijuma i njegovih poddirektorijuma
+
+5.Kreiraj simbolički link (prečicu) pod nazivom moj_link koji pokazuje na fajl podaci.txt.  
+Izlistaj sadržaj sa ls -l i pogledaj kako strelica pokazuje sa linka na originalni fajl.  
+Kreiraj hard link pod nazivom moj_hard_link nad istim fajlom. 
+Obriši originalni fajl podaci.txt. 
+Provjeri šta se dešava kada pokušaš da pročitaš moj_link, a šta kada čitaš moj_hard_link.
+
+6. Kreiraj fajl tajna.txt. Izmijeni prava pristupa tako da ti (vlasnik) možeš da čitaš i pišeš, a grupa i svi ostali nemaju nikakva prava.  
+Dodaj pravo izvršavanja (x) svim korisnicima nad tim fajlom.
+
+7.  Kreiraj lokalnu varijablu okruženja MOJE_IME="Ime" i ispiši njenu vrijednost na ekran pomoću echo $MOJE_IME.  
+Napravi privremeni alijas prikazi koji zapravo izvršava komandu ls -la. Testiraj ga kucanjem riječi prikazi.  
+
+
+8. Pokreni neki tekstualni editor ili program u pozadini.
+Pogledaj listu svojih aktivnih pozadinskih zadataka. 
+Pronađi PID (ID procesa) tog programa koristeći komandu ps -ux.  
+"Ubij" (zaustavi) taj proces koristeći njegov PID.
